@@ -8,12 +8,61 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    background: url('/images/background.WebP');
+    background: url('../images/background.WebP');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 1000px;
 }
+/**Menu**/
+nav ul {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  nav li a {
+    font-family: "Antonio", sans-serif;
+    text-decoration: none;
+    color: #cb6db8;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  nav li a:focus,
+  nav li a:hover {
+    color: #bb6bab;
+  } 
+  nav li a:focus:after,
+  nav li a:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  nav li a:after {
+      content: "";
+      pointer-events: none;
+      bottom: -2px;
+      left: 50%;
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      background-color: #bb6bab;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 400ms;
+      transition-property: width, left;
+  }
+  
 .intro-projets p {
     margin: -46px 50px 34px 40px;
     color: #bb6bab8c;
@@ -60,31 +109,32 @@ body {
     background-size: cover;
 }
 #card1{
-    background-image: url('/images/tweeter.WebP');  
+    background-image: url('../images/tweeter.WebP');  
+  
 }
 #card2{
-    background-image: url('/images/lovly.WebP');
+    background-image: url('../images/lovly.WebP');
 }
 #card3{
-    background-image: url('/images/CinemaScoop.WebP');
+    background-image: url('../images/CinemaScoop.WebP');
 }
 #card4{
-    background-image: url('/images/puissance4.WebP');
+    background-image: url('../images/puissance4.WebP');
 }
 #card5{
-    background-image: url('/images/morpion.WebP');
+    background-image: url('../images/morpion.WebP');
 }
 #card6{
-    background-image: url('/images/quizz.WebP');
+    background-image: url('../images/quizz.WebP');
 }
 #card7{
-    background-image: url('/images/to_do_list.WebP');
+    background-image: url('../images/to_do_list.WebP');
 }
 #card8{
-    background-image: url('/images/editeur.WebP');
+    background-image: url('../images/editeur.WebP');
 }
 #card9{
-    background-image: url('/images/PMRide.WebP');
+    background-image: url('../images/PMRide.WebP');
 }
 .card svg {
     width: 48px;
