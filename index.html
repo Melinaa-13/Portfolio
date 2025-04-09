@@ -12,13 +12,20 @@
   <header>
     <!-- Menu de navigation -->
     <nav>
-        <ul>
-            <li><a href="#home">A PROPOS</a></li>
-            <li><a href="#rubrique_projet">PROJETS</a></li>
-            <li><a href="#skills-section">SKILLS</a></li>
-            <li><a href="#rubrique-contact">CONTACT</a></li>
+      <div class="nav-container">
+        <div class="burger" id="burger">
+          <!-- &#9776;  -->
+           <img src="/images/menu-icon.png" alt="icon menu">
+        </div>
+        <ul id="nav-menu">
+          <li><a href="#home">A PROPOS</a></li>
+          <li><a href="#rubrique_projet">PROJETS</a></li>
+          <li><a href="#skills-section">SKILLS</a></li>
+          <li><a href="#rubrique-contact">CONTACT</a></li>
         </ul>
+      </div>
     </nav>
+    
     <!-- Presentation -->
     <div class="presentation" id="home">
         <img src="images/melina.WebP"  alt="letter melina">
@@ -52,7 +59,7 @@
             <span>• DEVELOPPEUSE WEB JUNIOR • DEVELOPPEUSE WEB JUNIOR • DEVELOPPEUSE WEB JUNIOR</span>
         </div>
     </div>
-    <script src="js/main.js" defer></script>
+    
   </header>
 
   <main>
@@ -506,10 +513,27 @@
     </div>
   </div>
 
-  <script>
+  <script src="js/main.js" defer></script>
+  <script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
     function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+    }
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('nav-menu');
+    burger.addEventListener('click', (e) => {
+      e.stopPropagation(); 
+      navLinks.classList.add('show');
+    });
+    document.querySelectorAll('#nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('show');
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!navLinks.contains(e.target) && !burger.contains(e.target)) {
+        navLinks.classList.remove('show');
+      }
+    });
   </script>
 
   

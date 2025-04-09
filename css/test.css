@@ -24,8 +24,8 @@ header {
 }
 /* Nom img */
 .presentation img {
-  margin: 0 0 0 0;
-  width: 200px;
+  margin: -80px 0 -72px 268px;
+  width: 745px;
 }
 header p {
   color: #bb6bab;
@@ -140,7 +140,8 @@ header p {
 #rubrique_projet img {
     margin-bottom: -81px;
     margin-top: -78px;
-    width: 300px;
+    margin-left: 353px;
+    width: 576px;
 }
 .rubrique_projet_content {
     display: flex;
@@ -152,7 +153,6 @@ header p {
 .cards {
     display: flex;
     gap: 20px;
-    flex-direction: column;
 }
 .cards a {
     text-decoration: none;
@@ -208,7 +208,7 @@ header p {
     cursor: pointer;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
-.button_projet{margin: 0 0 0 0;}
+.button_projet{margin: -30px 0 73px 528px;}
 
 /********************** FOOTER ***************************/
 footer {
@@ -235,7 +235,7 @@ footer {
     margin-top: -64px;
     margin-left: 16px;
     width: 400px;
-    margin-bottom: -5px;
+    margin-bottom: -35px;
 }
 .contact-container {
     height: 510px;
@@ -376,12 +376,12 @@ footer::before {
 /* About me */
 .about_me {background: #d8effc;}
 .title_about_me img {
-  margin: 0 0 0 0;
-  width: 400px;
+  margin: -169px 0 -78px 587px;
+  width: 576px;
 }
 .carousel-container {
   position: relative;
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -391,7 +391,7 @@ footer::before {
 }
 .slide {
   min-width: 100%;
-  padding: 21px;
+  padding: 20px;
   text-align: center;
 }
 h2 {
@@ -403,16 +403,15 @@ p {
 }
 /* Rubrique 1 */
 .rubrique1_content {
-  height: 616px;
-  width: 345px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 .personnage {
-  height: 200px;
+  height: 460px;
   z-index: 1;
-  margin: -24px 0 0 -22px;
+  width: 328px;
+  margin: -44px 0 0 46px;
 }
 .rubrique1_content p {
   color: #bb6bab;
@@ -427,11 +426,11 @@ p {
 }
 .arrow {
   position: absolute;
-  top: 38%;
+  top: 57%;
   background-color: rgb(0 0 0 / 0%);
   color: #cb6db8;
   border: none;
-  padding: 54px 0 0 -6px;
+  padding: 10px;
   font-size: 3rem;
   cursor: pointer;
   transform: translateY(-50%);
@@ -446,7 +445,7 @@ p {
 /* Bouton CV */
 .button_about_me {
   position: absolute;
-  margin: -183px 0 0 -135px;
+  margin: 65px 0 0 143px;
   z-index: 1000;
 }
 .button_cv {
@@ -516,10 +515,10 @@ p {
 }
 h2{
   color: #cb6db8;
-  font-size: 17px;
+  font-size: 23px;
   font-family: "Antonio";
-  padding-top: 67px;
-  margin: -32px 0 11px -91px;
+  padding-top: 66px;
+  margin: -43px 0 10px -236px;
 }
 a {
   color: inherit;
@@ -531,7 +530,7 @@ a {
 .menu-item img {
   border-radius: 1px;
   margin: 5px 0 10px 5px;
-  width: 89%;
+  width: 85%;
 }
 .menu-item,
 .menu-open-button {
@@ -631,8 +630,8 @@ a {
 .js {
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 34px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
 }
 .js:hover {
   text-shadow: none;
@@ -652,8 +651,8 @@ a {
   background-color: #f6e5e7;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 35px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
 }
 .css:hover {
   color: #f6e5e7;
@@ -663,8 +662,8 @@ a {
   background-color: #d2ebf1;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
 }
 .sql:hover {
   color: #d2ebf1;
@@ -674,8 +673,8 @@ a {
   background-color: #ffffff1a;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 35px;
-  height: 37px;
+  width: 45px;
+  height: 45px;
 }
 .swift:hover {
   color: #FF6E01;
@@ -685,8 +684,8 @@ a {
   /* background-color: #777BB3; */
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 33px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 }
 .php:hover {
   color: #777BB3;
@@ -707,8 +706,8 @@ a {
   text-decoration: underline;
 }
 .files_logo {
-  width: 85px;
-  margin: -23px 0 0 -25px;
+  width: 100px;
+  margin: -35px 0 0 -25px;
 }
 .menus-container {
   display: flex;
@@ -723,18 +722,18 @@ a {
   position: relative;
 }
 .menu_1{
-  margin: 22px 0 0 -68px;
+  margin: 16px 0 0 -68px;
 }
 .menu_2{
-  margin: 260px 0 0 -31px;
+  margin: 88px 0 0 -31px;
 }
 .menu_3{
-  margin: 533px 0 0 -60px;
+  margin: 152px 0 0 -60px;
 }
 
 /* Info contact */
 .info_contact {
-  margin: -248px 0 0 -518px;
+  margin: 67px 0 0 -68px;
 }
 .info_contact img {
   margin: -8px -101px 0 114px;
@@ -794,25 +793,26 @@ nav li a:after {
 
 /* Skills */
 #skills-section {
-    width: 100%;
-    padding: 0px 0px 0 21px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 .tabs {
-    margin-left: 29px;
+    margin-left: 22px;
+    width: 97%;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: #f8f8f8;
+    padding: 5px;
     border-radius: 8px;
 }
-
-
 .tab-link {
-    font-size: 15px;
-    background: white;
+    font-size: 18px;
+    background: none;
     border: none;
-    padding: 11px 10px;
+    padding: 10px 64px;
     cursor: pointer;
     font-weight: bolder;
     color: #f2cfe7;
@@ -920,209 +920,41 @@ nav li a:after {
     align-self: flex-end; 
 }
 .text_presentation{
-    text-align: center;
     color: #4B5563;
-    margin: 23px 0 14px -11px;
+    margin: 23px 0 14px 27px;
 }
 .title_skills{
-    margin: 0 0 0 0;
+    margin: -38px 0px -24px 401px;
     width: 349px;
 }
 
 
 /********Responsive ***************/
 @media (max-width: 768px) {
-    body{
-        width: 100%;
-      }
-    /* Header */
-      header {
-        height: 772px;
-      }
-      .presentation {
-        padding-top: 87px;
-      }
-      .presentation img {
-        margin: 0 0 0 0;
-        width: 200px;
-      }
-      .quote {
-        padding: 15px 7px;
-        margin-top: 168px;
-      }
-      .quote-content {
-        font-size: 19px;
-      }
-      .burger {
-        display: block;
-        position: fixed;
-        z-index: 10000;
-      }
-      #nav-menu {
-        border-radius: 0;
-        z-index: 1000;
-        position: fixed;
-        top: 0;
-        left: -250px;
-        width: 120px;
-        height: 100%;
-        background: white;
-        flex-direction: column;
-        padding: 6px 0 5px 13px;
-        transition: left 0.3s ease;
-      }
-      #nav-menu.show {
-        left: 0;
-      }
-      #nav-menu ul {
-        position: fixed;
-        top: 0;
-        left: -250px; 
-        height: 100%;
+    .contact img {
         width: 250px;
-        background-color: white;
-        flex-direction: column;
-        padding-top: 100px;
-        gap: 30px;
-        padding-left: 20px;
-        box-shadow: 2px 0px 10px rgba(0,0,0,0.2);
-        transition: left 0.3s ease-in-out;
-        z-index: 1000;
-      }
-      #nav-menu ul.show {
-        left: 0; 
-      }
-      #nav-menu ul li a {
-        font-size: 20px;
-        padding: 10px;
-      }
-      .presentation img {
-        margin: 157px 0 -24px 36px;
-        width: 348px;
     }
-      .button_header {
-        margin-top: 22px;
-      }
-      header p {
-        font-size: 17px;
-        text-align: center;
-      }
-      .btn {
-        font-size: 10px;
-        padding: 1em 0.9em;
+    .contact-container {
+        padding: 20px;
     }
-    /* Rubrique About me */
-    .title_about_me img {
-      margin: -110px 0 -63px 103px;
-      width: 400px;
+    .contact-container h2 {
+        font-size: 1.5rem;
     }
-  .rubrique1_content p {
-    font-size: 15px;
-    margin: 11px -53px 15px 9px;
-  }
-  .rubrique1_content {
-    height: 616px;
-    width: 345px;
-  }
-  .carousel-container {
-    width: 95%;
-  }
-  .slide {
-    padding: 21px;
-  }
-  .personnage {
-    height: 200px;
-    z-index: 1;
-    margin: -24px 0 0 -22px;
-  }
-  .arrow {
-    top: 38%;
-    padding: 54px 0 0 -6px;
-  }
-  .button_about_me {
-    margin: -151px 0 0 -135px;
-  }
-  .js, .html,.css, .sql ,.swift, .php {
-    width: 34px;
-    height: 32px;
-  }
-  .menu_1{
-    margin: 22px 0 0 -68px;
-  }
-  .menu_2{
-    margin: 260px 0 0 -31px;
-  }
-  .menu_3{
-    margin: 533px 0 0 -60px;
-  }
-  .info_contact {
-    margin: -201px 0 0 -518px;
-  }
-     /* Rubrique projet */
-     #rubrique_projet img {
-      margin: -22px 0 -2px 71px;
-      width: 300px;
-  }
-
-  .cards {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
+    .contact-container button {
+        font-size: 0.9rem;
+    }
 }
-
-  .button_projet {
-    margin: -12px 0 73px 157px;
+/* Responsive */
+@media screen and (max-width: 700px) {
+    /* body {
+      padding: 170px 0 0 0;
+      width: 100%;
+    } */
+    .menus-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .menu {
+      margin: 10px 0;
+    }
   }
-    
-/* Skills */
-  #skills-section {
-    width: 100%;
-    padding: 0px 0px 0 21px;
-  }
-  .tabs {
-    margin-left: -13px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 8px;
-  }
-  .title_skills{
-    margin: 0px 0 0 27px;
-    width: 320px;
-  }
-  .tab-link {
-    font-size: 15px;
-    background: white;
-    border: none;
-    padding: 11px 10px;
-    cursor: pointer;
-    font-weight: bolder;
-    color: #f2cfe7;
-    border-radius: 8px;
-    transition: background 0.3s ease, color 0.3s ease;
-  }
-  .skills-grid {
-    margin-left: 1px;
-}
-/* Rubrique contact */
-.contact img {
-  margin-top: -64px;
-  margin-left: 16px;
-  width: 400px;
-  margin-bottom: -5px;
-}
-  .contact-container {
-    padding: 20px;
-  }
-  .contact-container h2 {
-    font-size: 1.5rem;
-  }
-  .contact-container button {
-    font-size: 0.9rem;
-  }
-  
-}
-

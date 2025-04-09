@@ -140,6 +140,7 @@ header p {
 #rubrique_projet img {
     margin-bottom: -81px;
     margin-top: -78px;
+    /* margin-left: 353px; */
     width: 300px;
 }
 .rubrique_projet_content {
@@ -235,7 +236,7 @@ footer {
     margin-top: -64px;
     margin-left: 16px;
     width: 400px;
-    margin-bottom: -5px;
+    margin-bottom: -35px;
 }
 .contact-container {
     height: 510px;
@@ -381,7 +382,7 @@ footer::before {
 }
 .carousel-container {
   position: relative;
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -391,7 +392,7 @@ footer::before {
 }
 .slide {
   min-width: 100%;
-  padding: 21px;
+  padding: 20px;
   text-align: center;
 }
 h2 {
@@ -403,16 +404,15 @@ p {
 }
 /* Rubrique 1 */
 .rubrique1_content {
-  height: 616px;
-  width: 345px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 .personnage {
-  height: 200px;
+  height: 11px;
   z-index: 1;
-  margin: -24px 0 0 -22px;
+  width: 328px;
+  margin: -44px 0 0 46px;
 }
 .rubrique1_content p {
   color: #bb6bab;
@@ -427,11 +427,11 @@ p {
 }
 .arrow {
   position: absolute;
-  top: 38%;
+  top: 57%;
   background-color: rgb(0 0 0 / 0%);
   color: #cb6db8;
   border: none;
-  padding: 54px 0 0 -6px;
+  padding: 10px;
   font-size: 3rem;
   cursor: pointer;
   transform: translateY(-50%);
@@ -446,7 +446,7 @@ p {
 /* Bouton CV */
 .button_about_me {
   position: absolute;
-  margin: -183px 0 0 -135px;
+  margin: 65px 0 0 143px;
   z-index: 1000;
 }
 .button_cv {
@@ -516,10 +516,10 @@ p {
 }
 h2{
   color: #cb6db8;
-  font-size: 17px;
+  font-size: 23px;
   font-family: "Antonio";
-  padding-top: 67px;
-  margin: -32px 0 11px -91px;
+  padding-top: 66px;
+  margin: -43px 0 10px -236px;
 }
 a {
   color: inherit;
@@ -531,7 +531,7 @@ a {
 .menu-item img {
   border-radius: 1px;
   margin: 5px 0 10px 5px;
-  width: 89%;
+  width: 85%;
 }
 .menu-item,
 .menu-open-button {
@@ -631,8 +631,8 @@ a {
 .js {
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 34px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
 }
 .js:hover {
   text-shadow: none;
@@ -652,8 +652,8 @@ a {
   background-color: #f6e5e7;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 35px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
 }
 .css:hover {
   color: #f6e5e7;
@@ -663,8 +663,8 @@ a {
   background-color: #d2ebf1;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
 }
 .sql:hover {
   color: #d2ebf1;
@@ -674,8 +674,8 @@ a {
   background-color: #ffffff1a;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 35px;
-  height: 37px;
+  width: 45px;
+  height: 45px;
 }
 .swift:hover {
   color: #FF6E01;
@@ -685,8 +685,8 @@ a {
   /* background-color: #777BB3; */
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  width: 33px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 }
 .php:hover {
   color: #777BB3;
@@ -707,8 +707,8 @@ a {
   text-decoration: underline;
 }
 .files_logo {
-  width: 85px;
-  margin: -23px 0 0 -25px;
+  width: 100px;
+  margin: -35px 0 0 -25px;
 }
 .menus-container {
   display: flex;
@@ -723,18 +723,18 @@ a {
   position: relative;
 }
 .menu_1{
-  margin: 22px 0 0 -68px;
+  margin: 16px 0 0 -68px;
 }
 .menu_2{
-  margin: 260px 0 0 -31px;
+  margin: 88px 0 0 -31px;
 }
 .menu_3{
-  margin: 533px 0 0 -60px;
+  margin: 152px 0 0 -60px;
 }
 
 /* Info contact */
 .info_contact {
-  margin: -248px 0 0 -518px;
+  margin: 67px 0 0 -68px;
 }
 .info_contact img {
   margin: -8px -101px 0 114px;
@@ -920,9 +920,8 @@ nav li a:after {
     align-self: flex-end; 
 }
 .text_presentation{
-    text-align: center;
     color: #4B5563;
-    margin: 23px 0 14px -11px;
+    margin: 23px 0 14px 27px;
 }
 .title_skills{
     margin: 0 0 0 0;
@@ -937,40 +936,36 @@ nav li a:after {
       }
     /* Header */
       header {
-        height: 772px;
+        height: 706px;
       }
       .presentation {
-        padding-top: 87px;
-      }
-      .presentation img {
-        margin: 0 0 0 0;
-        width: 200px;
+        padding-top: 30px;
       }
       .quote {
         padding: 15px 7px;
-        margin-top: 168px;
+        margin-top: 148px;
       }
       .quote-content {
         font-size: 19px;
       }
       .burger {
         display: block;
-        position: fixed;
-        z-index: 10000;
       }
       #nav-menu {
-        border-radius: 0;
-        z-index: 1000;
         position: fixed;
         top: 0;
         left: -250px;
-        width: 120px;
+        width: 130px;
         height: 100%;
         background: white;
         flex-direction: column;
-        padding: 6px 0 5px 13px;
+        padding: 60px 20px;
         transition: left 0.3s ease;
       }
+      /* nav {
+        position: fixed;
+        z-index: 10000;
+      } */
       #nav-menu.show {
         left: 0;
       }
@@ -997,7 +992,7 @@ nav li a:after {
         padding: 10px;
       }
       .presentation img {
-        margin: 157px 0 -24px 36px;
+        margin: 157px 0 -24px 19px;
         width: 348px;
     }
       .button_header {
@@ -1012,66 +1007,29 @@ nav li a:after {
         padding: 1em 0.9em;
     }
     /* Rubrique About me */
-    .title_about_me img {
-      margin: -110px 0 -63px 103px;
-      width: 400px;
-    }
-  .rubrique1_content p {
-    font-size: 15px;
-    margin: 11px -53px 15px 9px;
-  }
-  .rubrique1_content {
-    height: 616px;
+  .title_about_me img {
+    margin: -90px 0 -78px 252px;
     width: 345px;
   }
-  .carousel-container {
-    width: 95%;
-  }
-  .slide {
-    padding: 21px;
-  }
-  .personnage {
-    height: 200px;
-    z-index: 1;
-    margin: -24px 0 0 -22px;
-  }
-  .arrow {
-    top: 38%;
-    padding: 54px 0 0 -6px;
-  }
-  .button_about_me {
-    margin: -151px 0 0 -135px;
-  }
-  .js, .html,.css, .sql ,.swift, .php {
-    width: 34px;
-    height: 32px;
-  }
-  .menu_1{
-    margin: 22px 0 0 -68px;
-  }
-  .menu_2{
-    margin: 260px 0 0 -31px;
-  }
-  .menu_3{
-    margin: 533px 0 0 -60px;
-  }
-  .info_contact {
-    margin: -201px 0 0 -518px;
+  .rubrique1_content p {
+    font-size: 14px;
+    margin: 23px -54px -17px 38px;
   }
      /* Rubrique projet */
-     #rubrique_projet img {
-      margin: -22px 0 -2px 71px;
-      width: 300px;
+  #rubrique_projet img {
+    margin-bottom: 25px;
+    margin-top: -22px;
+    margin-left: 35px;
+    width: 320px;
   }
-
   .cards {
     display: flex;
-    gap: 20px;
+    gap: 61px;
     flex-direction: column;
-}
-
+    justify-content: center;
+  }
   .button_projet {
-    margin: -12px 0 73px 157px;
+    margin: -12px 0 73px 130px;
   }
     
 /* Skills */
@@ -1090,8 +1048,8 @@ nav li a:after {
     border-radius: 8px;
   }
   .title_skills{
-    margin: 0px 0 0 27px;
-    width: 320px;
+    margin: 0 0 0 0;
+    width: 349px;
   }
   .tab-link {
     font-size: 15px;
@@ -1104,16 +1062,10 @@ nav li a:after {
     border-radius: 8px;
     transition: background 0.3s ease, color 0.3s ease;
   }
-  .skills-grid {
-    margin-left: 1px;
-}
 /* Rubrique contact */
-.contact img {
-  margin-top: -64px;
-  margin-left: 16px;
-  width: 400px;
-  margin-bottom: -5px;
-}
+  .contact img {
+    width: 250px;
+  }
   .contact-container {
     padding: 20px;
   }
@@ -1123,6 +1075,5 @@ nav li a:after {
   .contact-container button {
     font-size: 0.9rem;
   }
-  
 }
 

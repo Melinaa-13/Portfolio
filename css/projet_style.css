@@ -62,7 +62,7 @@ nav ul {
       transition-duration: 400ms;
       transition-property: width, left;
   }
-  
+  /*  */
 .intro-projets p {
     margin: -46px 50px 34px 40px;
     color: #bb6bab8c;
@@ -72,8 +72,8 @@ nav ul {
     line-height: 1.5;
 }
 .title img {
-    margin: -76px 0 -77px 268px;
-    width: 741px;
+    margin: -257px 0 0 23px;
+    width: 340px;
 }
 /* cards */
 .cards-container {
@@ -360,8 +360,87 @@ button.learn-more:hover .button-text {
 }
 /* Responsive */
 @media (max-width: 900px) {
+    body{
+        width: 100%;
+      }
+    /* Header */
+      header {
+        height: 173px;
+      }
+      .burger {
+        display: block;
+        position: fixed;
+        z-index: 10000;
+      }
+      #nav-menu {
+        border-radius: 0;
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 120px;
+        height: 100%;
+        background: white;
+        flex-direction: column;
+        padding: 6px 0 5px 13px;
+        transition: left 0.3s ease;
+      }
+      #nav-menu.show {
+        left: 0;
+      }
+      #nav-menu ul {
+        position: fixed;
+        top: 0;
+        left: -250px; 
+        height: 100%;
+        width: 250px;
+        background-color: white;
+        flex-direction: column;
+        padding-top: 100px;
+        gap: 30px;
+        padding-left: 20px;
+        box-shadow: 2px 0px 10px rgba(0,0,0,0.2);
+        transition: left 0.3s ease-in-out;
+        z-index: 1000;
+      }
+      #nav-menu ul.show {
+        left: 0; 
+      }
+      #nav-menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+      }
+      .intro-projets p {
+        margin: -46px 8px 49px 10px;
+        color: #bb6bab;
+        text-align: center;
+    }
     .cards-container {
       flex-direction: column;
       align-items: center;
+    }
+    /* pop up */
+    .card__description {
+        font-size: 14px;
+    }
+    .tag {
+        padding: 10px;
+        font-size: 13px;
+        width: 78px;
+        height: 23px;
+        margin: -13px -10px 9px 9px;
+    }
+    .modal-content {
+        margin: 58px 0 0 10px;
+        padding: 20px;
+        width: 95%;
+    }
+    .img_modal {
+        width: 95%;
+        margin: 1px -10px -28px -3px;
+    }
+    .modal-content p {
+        margin: 34px 11px 48px 5px;
+        font-size: 18px;
     }
   }

@@ -11,12 +11,18 @@
     <header>
         <!-- Menu de navigation -->
         <nav>
-            <ul>
+            <div class="nav-container">
+              <div class="burger" id="burger">
+                <!-- &#9776;  -->
+                 <img src="/images/menu-icon.png" alt="icon menu">
+              </div>
+              <ul id="nav-menu">
                 <li><a href="index.html#home">A PROPOS</a></li>
                 <li><a href="index.html#rubrique_projet">PROJETS</a></li>
                 <li><a href="index.html#skills-section">SKILLS</a></li>
                 <li><a href="index.html#rubrique-contact">CONTACT</a></li>
-            </ul>
+              </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -398,6 +404,26 @@
     </footer>
     
     <script src="js/projet_card.js"></script>
-    <script src="js/projet_modal.js"></script>
+    <script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+        function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        const burger = document.getElementById('burger');
+        const navLinks = document.getElementById('nav-menu');
+        burger.addEventListener('click', (e) => {
+          e.stopPropagation(); 
+          navLinks.classList.add('show');
+        });
+        document.querySelectorAll('#nav-menu a').forEach(link => {
+          link.addEventListener('click', () => {
+            navLinks.classList.remove('show');
+          });
+        });
+        document.addEventListener('click', (e) => {
+          if (!navLinks.contains(e.target) && !burger.contains(e.target)) {
+            navLinks.classList.remove('show');
+          }
+        });
+      </script>
 </body>
 </html>
